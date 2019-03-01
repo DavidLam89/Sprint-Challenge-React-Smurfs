@@ -1,3 +1,21 @@
 .App {
   text-align: center;
+  background-color: #e7f4ff; 
+  height: 1000px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #517a99;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.nav-links a.active {
+  border-bottom: 1px solid #517a99;
 }
